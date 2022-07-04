@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+nav .link {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+nav .link:hover {
+  background-color: yellow;
+  padding: 12px;
+  border-radius: 8px;
+}
